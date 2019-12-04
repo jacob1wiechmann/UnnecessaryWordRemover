@@ -20,8 +20,8 @@ public class TheApp extends Application {
     public void start(Stage primaryStage) {
 		
 		// The data structure to store all words in the document
-		List<String> allWords = new ArrayList<String>();
-    	//LinkedList<String> allWords = new LinkedList<String>();
+		//List<String> allWords = new ArrayList<String>();
+    	LinkedList<String> allWords = new LinkedList<String>();
 		
     	// create the user interface
     	primaryStage.setTitle("Unnecessary Word Remover");
